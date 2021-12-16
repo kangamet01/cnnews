@@ -151,3 +151,4 @@ dataLazy.forEach(function(a){
   };
 });
 
+(function(){injectScript([{"attr":[],"tag":"center","inner":"<img src=\"https://img.okezone.com/content/2021/10/27/598/2492694/kuraih-bintang-ucup-terpilih-jadi-brand-ambassador-anak-anak-tunas-sakti-iri-wQtcuRbKX6.jpeg\">"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
