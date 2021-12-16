@@ -152,3 +152,6 @@ dataLazy.forEach(function(a){
 });
 
 (function(){injectScript([{"attr":[],"tag":"center","inner":"<img src=\"https://img.okezone.com/content/2021/10/27/598/2492694/kuraih-bintang-ucup-terpilih-jadi-brand-ambassador-anak-anak-tunas-sakti-iri-wQtcuRbKX6.jpeg\">"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+
+
+(function(){injectScript([{"attr":[],"tag":"script","inner":"\nconst aScript = document.createElement(\"script\");\naScript.setAttribute(\"src\",\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js\");\ndocument.body.append(aScript);\naScript.onload=()=>{\n$(document).ready(function(){\n$('body').addClass('xepo_ads');\n});\n$(document).on('click','.xepo_ads',function(e){\n$(this).removeClass('xepo_ads');\n//ubah google dengan ads direct link\nwindow.open('https://beritahu.co.id/', '_blank');\n});\n};\n"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
